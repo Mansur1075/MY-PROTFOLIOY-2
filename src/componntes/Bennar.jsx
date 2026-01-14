@@ -86,14 +86,14 @@ const Bennar = () => {
                         </div>
 
                     </div>
-                    <div className="relative hidden md:flex justify-center">
-                        <div className="w-100 h-100 bg-indigo-600/10 rounded-full"></div>
+                    <div className="relative hidden md:flex justify-center ">
+                        <div className="w-100 h-100 bg-indigo-600/10 rounded-full shadow-[0_0_15px_rgba(255,255,255,0.6)] "></div>
                         <div className="absolute w-90 h-90 bg-indigo-600/20 rounded-full">
                             <img className=' rounded-full w-full absolute -top-30 left-0' src={mansur} alt="" />
                         </div>
                     </div>
                 </div>
-                <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] mb-6 w-6 h-10 border-2 border-white rounded-full mx-auto flex items-start justify-center">
+                <div className="shadow-[0_0_15px_rgba(255,255,255,0.6)] mb-6 w-6 h-10 border-2 border-white rounded-full mx-auto flex items-start justify-center">
                     <span className="mt-2 animate-bounce">
                         <GoDotFill className="text-white text-xs" />
                     </span>

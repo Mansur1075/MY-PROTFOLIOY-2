@@ -19,7 +19,7 @@ export const Navbar = () => {
                                     <FaCode className="text-[32px] group-hover:rotate-12 transition-transform duration-300" />
                                 </div>
                                 <div className="leading-tight">
-                                    <h3 className="text-[20px] font-lato font-bold tracking-wide text-gray-900 animate-bounce">
+                                    <h3 className="text-[20px] font-lato font-bold tracking-wide text-[#ffffff96] ">
                                         AL-MANSUR
                                     </h3>
 
@@ -29,7 +29,7 @@ export const Navbar = () => {
                                 </div>
                             </div>
 
-                            <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-bold text-[#fff]">
+                            <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-bold text-[#ffffffa1]">
                                 <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Home</li>
                                 <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">About</li>
                                 <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Skills</li>
