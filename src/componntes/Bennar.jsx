@@ -7,7 +7,7 @@ import { GiThumbDown } from 'react-icons/gi'
 
 const Bennar = () => {
     return (
-        <section className=''>
+        <section className='bg-linear-to-r from-green-100 via-blue-400 to-purple-400'>
             <Container>
                 <div className="max-w-7xl mx-auto px-6 pt-20 pb-20 grid md:grid-cols-2 gap-12 items-center">
                     <div>

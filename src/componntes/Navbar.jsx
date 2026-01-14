@@ -6,7 +6,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 
 export const Navbar = () => {
     return (
-        <section className='bg-white/80 backdrop-blur shadow-sm'>
+        <nav className='bg-linear-to-r from-green-100 via-blue-400 to-purple-400 backdrop-blur shadow-sm'>
             <Container>
                 {/* ================= Navbar ================= */}
                 <div className="w-full  sticky  z-50 fixed top-0 left-0">
@@ -43,7 +43,7 @@ export const Navbar = () => {
                 </div>
                 {/* ================= Hero Section ================= */}
             </Container>
-        </section>
+        </nav>
     )
 }
 
