@@ -6,10 +6,10 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 
 export const Navbar = () => {
     return (
-        <nav className='bg-linear-to-r from-green-100 via-blue-400 to-purple-400 backdrop-blur shadow-sm'>
+        <nav className='sticky  z-50 top-0 left-0 bg-linear-to-r from-green-100 via-blue-400 to-purple-400 backdrop-blur shadow-sm'>
             <Container>
                 {/* ================= Navbar ================= */}
-                <div className="w-full  sticky  z-50 fixed top-0 left-0">
+                <div className="w-full">
                     <div className="w-full flex justify-center">
                         <div className="w-full max-w-7xl px-4 md:px-6 py-4 flex items-center justify-between">
                             <div className="group flex items-center gap-4 cursor-pointer select-none">
@@ -29,11 +29,11 @@ export const Navbar = () => {
                                 </div>
                             </div>
 
-                            <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-medium text-gray-600">
-                                <li className="hover:text-indigo-600 cursor-pointer transition">Home</li>
-                                <li className="hover:text-indigo-600 cursor-pointer transition">About</li>
-                                <li className="hover:text-indigo-600 cursor-pointer transition">Skills</li>
-                                <li className="hover:text-indigo-600 cursor-pointer transition">Contact</li>
+                            <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-medium text-[#ffffffa4]">
+                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Home</li>
+                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">About</li>
+                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Skills</li>
+                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Contact</li>
                             </ul>
                             <button className="hidden md:block bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
                                 Hire Me
