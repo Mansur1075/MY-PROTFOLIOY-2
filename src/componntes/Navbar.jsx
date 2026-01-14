@@ -1,12 +1,50 @@
 import React from 'react'
 import Container from './Container'
+import { MdOutlineDeveloperMode } from 'react-icons/md'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { VscVscodeInsiders } from 'react-icons/vsc'
 
 export const Navbar = () => {
-  return (
-     <Container>
-      <h1 class="text-3xl font-bold text-[red] ">
-        Hello world!
-      </h1>
-    </Container>
-  )
+    return (
+        <section className='bg-white/80 backdrop-blur shadow-sm'>
+            <Container>
+                {/* ================= Navbar ================= */}
+                <div className="w-full  sticky  z-50 fixed top-0 left-0">
+                    <div className="w-full flex justify-center">
+                        <div className="w-full max-w-7xl px-4 md:px-6 py-4 flex items-center justify-between">
+                            <div className="group flex items-center gap-4 cursor-pointer select-none">
+                                <div className="p-3 rounded-xl bg-black text-white 
+                              group-hover:bg-white group-hover:text-black 
+                                transition-all duration-300 shadow-md">
+                                    <VscVscodeInsiders className="text-[32px] group-hover:rotate-12 transition-transform duration-300" />
+                                </div>
+
+                                <div className="leading-tight">
+                                    <h3 className="text-[18px] font-bold tracking-wide text-gray-900">
+                                       AL-MANSUR
+                                    </h3>
+                                    <span className="text-xs tracking-wide text-gray-500 uppercase">
+                                        Front-End Developer
+                                    </span>
+                                </div>
+                            </div>
+
+                            <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-medium text-gray-600">
+                                <li className="hover:text-indigo-600 cursor-pointer transition">Home</li>
+                                <li className="hover:text-indigo-600 cursor-pointer transition">About</li>
+                                <li className="hover:text-indigo-600 cursor-pointer transition">Skills</li>
+                                <li className="hover:text-indigo-600 cursor-pointer transition">Contact</li>
+                            </ul>
+                            <button className="hidden md:block bg-indigo-600 text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
+                                Hire Me
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                {/* ================= Hero Section ================= */}
+            </Container>
+        </section>
+    )
 }
+
+
