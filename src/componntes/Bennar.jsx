@@ -10,7 +10,7 @@ import { GoDotFill } from 'react-icons/go'
 
 const Bennar = () => {
     return (
-        <section className='bg-linear-to-r  bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
+        <section className='bg-linear-to-r  from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
             <div className="absolute rotate-40 -inset-5 pointer-events-none">
                 <div className="absolute -top-75 animate-pulse left-207 w-32 h-32 bg-white/20 rounded-xl"></div>
                 <div className="absolute top-60 right-32 w-24 h-24 animate-pulse bg-white/15 rounded-lg"></div>
@@ -31,7 +31,7 @@ const Bennar = () => {
                         <p className="text-gray-600 mt-4 font-lato max-w-lg text-[35px]">
                             I build <span className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-bold"> fast, clean, </span> and scalable web interfaces with React.< DiReact className='animate-spin [animation-duration:3s] inline-block text-[50px] text-[#61DAFB]' />
                         </p>
-                        <p className=' font-lato pt-4 text-[#667766c5]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
+                        <p className=' font-lato pt-4 text-[#667766c5] text-[18px]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
                             component-based architectures that are performant, maintainable, and built for production.</p>
                         <div className="flex gap-4 mt-8">
                             <button className="bg-linear-to-br font-bold font-lato from-indigo-500 via-purple-500 to-pink-500 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
@@ -93,12 +93,11 @@ const Bennar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shadow-[0_0_15px_rgba(255,255,255,0.6)] mb-6 w-6 h-10 border-2 border-white rounded-full mx-auto flex items-start justify-center">
+                <div className="shadow-[0_0_15px_rgba(255,255,255,0.6)] mb-10 w-6 h-10 border-2 border-white rounded-full mx-auto flex items-start justify-center">
                     <span className="mt-2 animate-bounce">
                         <GoDotFill className="text-white text-xs" />
                     </span>
                 </div>
-
             </Container>
         </section>
     )
