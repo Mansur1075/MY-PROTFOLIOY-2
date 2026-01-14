@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import { MdOutlineDeveloperMode } from 'react-icons/md'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaCode, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 
 export const Navbar = () => {
@@ -13,17 +13,17 @@ export const Navbar = () => {
                     <div className="w-full flex justify-center">
                         <div className="w-full max-w-7xl px-4 md:px-6 py-4 flex items-center justify-between">
                             <div className="group flex items-center gap-4 cursor-pointer select-none">
-                                <div className="p-3 rounded-xl bg-black text-white 
+                                <div className="p-3 rounded-xl bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-white 
                               group-hover:bg-white group-hover:text-black 
                                 transition-all duration-300 shadow-md">
-                                    <VscVscodeInsiders className="text-[32px] group-hover:rotate-12 transition-transform duration-300" />
+                                    <FaCode className="text-[32px] group-hover:rotate-12 transition-transform duration-300" />
                                 </div>
-
                                 <div className="leading-tight">
-                                    <h3 className="text-[18px] font-bold tracking-wide text-gray-900">
-                                       AL-MANSUR
+                                    <h3 className="text-[20px] font-lato font-bold tracking-wide text-gray-900 animate-bounce">
+                                        AL-MANSUR
                                     </h3>
-                                    <span className="text-xs tracking-wide text-gray-500 uppercase">
+
+                                    <span className="text-xs font-lato tracking-wide text-gray-500 uppercase">
                                         Front-End Developer
                                     </span>
                                 </div>
@@ -35,7 +35,7 @@ export const Navbar = () => {
                                 <li className="hover:text-indigo-600 cursor-pointer transition">Skills</li>
                                 <li className="hover:text-indigo-600 cursor-pointer transition">Contact</li>
                             </ul>
-                            <button className="hidden md:block bg-indigo-600 text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
+                            <button className="hidden md:block bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
                                 Hire Me
                             </button>
                         </div>
