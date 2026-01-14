@@ -34,10 +34,10 @@ const Bennar = () => {
                         <p className=' font-lato pt-4 text-[#667766c5] text-[18px]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
                             component-based architectures that are performant, maintainable, and built for production.</p>
                         <div className="flex gap-4 mt-8">
-                            <button className="bg-linear-to-br font-bold font-lato from-indigo-500 via-purple-500 to-pink-500 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
+                            <button className="shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-br font-bold font-lato from-indigo-500 via-purple-500 to-pink-500 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
                                 View Projects
                             </button>
-                            <button className="border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full hover:bg-indigo-600 hover:text-white transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full hover:bg-indigo-600 hover:text-white transition">
                                 Download CV<FaCloudDownloadAlt  className=' inline-block ml-2 '/>
                             </button>
                         </div>
@@ -45,29 +45,27 @@ const Bennar = () => {
                             <ul className="flex gap-6 justify-center items-center">
                                 <Link to="https://github.com/Mansur1075" target="_blank">
                                     <li className="relative group"> <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 bg-black text-white text-sm px-3 py-1 rounded-md"> GitHub  </span>
-                                        <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-gray-800 shadow-md cursor-pointer transition-all duration-300 group-hover:bg-gray-800 group-hover:text-white group-hover:-translate-y-2">
+                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-gray-800 shadow-md cursor-pointer transition-all duration-300 group-hover:bg-gray-800 group-hover:text-white group-hover:-translate-y-2">
                                             <FaGithub size={22} />
                                         </div>
                                     </li>
                                 </Link>
                                 <Link to="" target='_blank'>
-
                                     <li className="relative group">
                                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 bg-black text-white text-sm px-3 py-1 rounded-md">
                                             LinkedIn
                                         </span>
-                                        <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-blue-600 shadow-md cursor-pointer transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white group-hover:-translate-y-2">
+                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-blue-600 shadow-md cursor-pointer transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white group-hover:-translate-y-2">
                                             <FaLinkedinIn size={22} />
                                         </div>
                                     </li>
                                 </Link>
                                 <Link to="https://mail.google.com/mail/u/0/#sent?compose=new" target='_blank'>
-
                                     <li className="relative group">
                                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 bg-black text-white text-sm px-3 py-1 rounded-md">
                                             Email
                                         </span>
-                                        <div className="group w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[#D93025] shadow-md cursor-pointer transition-all duration-300 hover:bg-[#D93025] hover:text-white hover:-translate-y-2">
+                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] group w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[#D93025] shadow-md cursor-pointer transition-all duration-300 hover:bg-[#D93025] hover:text-white hover:-translate-y-2">
                                             <MdEmail size={24} />
                                         </div>
                                     </li>
@@ -77,7 +75,7 @@ const Bennar = () => {
                                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 bg-black text-white text-sm px-3 py-1 rounded-md">
                                            Facebook
                                         </span>
-                                        <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[blue] shadow-md cursor-pointer transition-all duration-300 group-hover:bg-[#0000ffb7] group-hover:text-white group-hover:-translate-y-2">
+                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[blue] shadow-md cursor-pointer transition-all duration-300 group-hover:bg-[#0000ffb7] group-hover:text-white group-hover:-translate-y-2">
                                             <FaFacebook size={24} />
                                         </div>
                                     </li>

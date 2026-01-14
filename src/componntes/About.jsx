@@ -35,7 +35,7 @@ const About = () => {
                                 maintainable and scalable for real-world production environments.</p>
                         </div>
                         <div className="w-6/12">
-                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 border-[#00D3F3]/40 rounded-2xl transition-all duration-300 hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
+                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 cursor-pointer border-[#00D3F3]/40 rounded-2xl transition-all duration-300 hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
                                 <div className="pt-6 px-5 pb-2 bg-[#0A1F28] text-3xl text-[#00D3F3] rounded-2xl transition-all duration-300  group-hover:shadow-[0_0_20px_rgba(0,211,243,0.4)]">
                                     <FaCode />
                                 </div>
@@ -48,7 +48,7 @@ const About = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 border-[#00D3F3]/40 rounded-2xl transition-all duration-300 hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
+                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 cursor-pointer border-[#00D3F3]/40 rounded-2xl transition-all duration-300 hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
                                 <div className="pt-6 px-5 pb-2 bg-[#0A1F28] text-3xl text-[#00D3F3] rounded-2xl transition-all duration-300  group-hover:shadow-[0_0_20px_rgba(0,211,243,0.4)]">
                                    <LuLayers />
                                 </div>
@@ -61,7 +61,7 @@ const About = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 border-[#00D3F3]/40 rounded-2xl transition-all hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
+                            <div className="group flex gap-4 w-full px-4 py-5 mt-7 bg-[#0B0E14] border hover:scale-102 ease-in-out duration-300 cursor-pointer border-[#00D3F3]/40 rounded-2xl transition-all hover:border-[#00D3F3] hover:shadow-[0_0_25px_rgba(0,211,243,0.15)]">
                                 <div className="pt-6 px-5 pb-2 bg-[#0A1F28] text-3xl text-[#00D3F3] rounded-2xl transition-all duration-300  group-hover:shadow-[0_0_20px_rgba(0,211,243,0.4)]">
                                    <AiTwotoneThunderbolt />
                                 </div>

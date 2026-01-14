@@ -13,10 +13,10 @@ export const Navbar = () => {
                     <div className="w-full flex justify-center">
                         <div className="w-full max-w-7xl px-4 md:px-6 py-4 flex items-center justify-between">
                             <div className="group flex items-center gap-4 cursor-pointer select-none">
-                                <div className="p-3 rounded-xl bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 text-white 
+                                <div className="p-3 rounded-xl bg-[#00D3F3] text-white 
                               group-hover:bg-white group-hover:text-black 
-                                transition-all duration-300 shadow-md">
-                                    <FaCode className="text-[32px] group-hover:rotate-12 transition-transform duration-300" />
+                                transition-all duration-300 shadow-md hover:shadow-[0_0_15px_rgba(255,255,255,0.6)]">
+                                    <FaCode className=" text-[32px] group-hover:rotate-12 transition-transform duration-300" />
                                 </div>
                                 <div className="leading-tight">
                                     <h3 className="text-[20px] font-lato font-bold tracking-wide text-[#ffffff96] ">
@@ -36,7 +36,7 @@ export const Navbar = () => {
                                 <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Contact</li>
                                 <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Projects</li>
                             </ul>
-                            <button className="hidden md:block bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] hidden md:block bg-linear-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
                                 Hire Me
                             </button>
                         </div>
