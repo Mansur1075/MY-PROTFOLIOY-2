@@ -6,6 +6,7 @@ import Bennar from './componntes/Bennar'
 import About from './componntes/About'
 import Skills from './componntes/Skills'
 import Portfolio from './componntes/Portfolio'
+import Footer from './componntes/Footer'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <About/>
     <Skills/>
     <Portfolio/>
+    <Footer/>
    </div>
     </>
   )

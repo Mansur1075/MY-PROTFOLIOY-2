@@ -24,9 +24,7 @@ const Bennar = () => {
                         <p className="text-indigo-600 font-bold font-lato text-[20px] mb-3">Hello, I’m</p>
                         <h1 className="text-4xl md:text-5xl font-bold text-[#ffffff8a] leading-tight">
                             AL-Mansur <br />
-                            <span className="bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-semibold">
-                                Front-End Developer
-                            </span>
+                           <span className="text-[#7DD3FC] font-medium">Front-End Developer</span>
                         </h1>
                         <p className="text-gray-600 mt-4 font-lato max-w-lg text-[35px]">
                             I build <span className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-bold"> fast, clean, </span> and scalable web interfaces with React.< DiReact className='animate-spin [animation-duration:3s] inline-block text-[50px] text-[#61DAFB]' />
@@ -34,12 +32,10 @@ const Bennar = () => {
                         <p className=' font-lato pt-4 text-[#667766c5] text-[18px]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
                             component-based architectures that are performant, maintainable, and built for production.</p>
                         <div className="flex gap-4 mt-8">
-                            <button className="shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
                                 View Projects
                             </button>
-                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full group-hover:bg-gradient-to-r 
-                group-hover:from-[#00D3F3] 
-                group-hover:to-[#3B82F6] hover:text-white transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full group-hover:bg-linear-to-r  group-hover:from-[#00D3F3] group-hover:to-[#3B82F6] hover:text-white transition">
                                 Download CV<FaCloudDownloadAlt  className=' inline-block ml-2 '/>
                             </button>
                         </div>

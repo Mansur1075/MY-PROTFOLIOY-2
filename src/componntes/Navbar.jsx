@@ -6,7 +6,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 
 export const Navbar = () => {
     return (
-        <nav className='sticky  z-50 top-0 left-0 bg-linear-to-r bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 backdrop-blur shadow-sm'>
+        <nav className='sticky  z-50 top-0 left-0 bg-linear-to-br from-slate-800 via-slate-900 to-slate-700 backdrop-blur shadow-sm'>
             <Container>
                 {/* ================= Navbar ================= */}
                 <div className="w-full">

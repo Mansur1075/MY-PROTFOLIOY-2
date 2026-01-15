@@ -28,7 +28,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         </div>
-                    <div className=" w-6/12">
+                        <div className=" w-6/12">
                             <h2 className=' text-[30px] font-lato text-white'>Analytics Dashboard</h2>
                             <p className=' text-[16px] text-[#ffffff9d] font-lato font-medium pt-2'>Real-time analytics platform with interactive charts, data visualization, and responsive design. Built with React, Recharts, and Tailwind CSS.</p>
                             <div className=" hover:scale-101 hover:shadow-[0_0_30px_rgba(0,211,243,0.15)] duration-300 ease-in-out p-6 mt-4 rounded-2xl border border-[#00D3F3]/40 bg-linear-to-br from-[#0B0E14] to-[#071C22]transition-all duration-300hover:border-[#00D3F3]hover:shadow-[0_0_30px_rgba(0,211,243,0.15)]">
@@ -48,11 +48,11 @@ const Portfolio = () => {
                                 </ul>
                             </div>
 
-                    </div>
-                   
+                        </div>
+
                     </div>
                     {/* one part end */}
-                     {/* part two */}
+                    {/* part two */}
                     <div className=" mt-12 flex justify-between gap-7 ">
                         <div className=" w-6/12">
                             <h2 className=' text-[30px] font-lato text-white'>Analytics Dashboard</h2>
@@ -84,9 +84,9 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                     {/* part two end*/}
-                     {/* part three */}
-                      <div className=" mt-12 flex justify-between gap-7 ">
+                    {/* part two end*/}
+                    {/* part three */}
+                    <div className=" mt-12 flex justify-between gap-7 ">
                         <div className=" w-6/12  group mt-9 ">
                             <div className="relative p-5 border-3 cursor-pointer bg-[#ffffff7d] border-[#0C4D61] rounded-2xl">
                                 <img className=' group-hover:scale-104 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] shadow-md duration-300 ease-in-out rounded-2xl' src={projct3} alt="" />
@@ -117,8 +117,8 @@ const Portfolio = () => {
                             </div>
 
                         </div>
-                     </div>
-                     {/* part end */}
+                    </div>
+                    {/* part end */}
                 </div>
             </Container>
         </section>
