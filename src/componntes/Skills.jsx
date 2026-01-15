@@ -66,14 +66,14 @@ const Skills = () => {
 
             </div>
             <div className=" w-12/12 justify-center mt-15 cursor-pointer">
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">Git & GitHub</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">Webpack & Vite</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">React Router</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">Redux & Context API</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">REST APIs</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">Jest & Testing Library</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">Figma</span>
-                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[16px] text-[#00D3F3]  font-lato">npm & yarn</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Git & GitHub</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Webpack & Vite</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">React Router</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Redux & Context API</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">REST APIs</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Jest & Testing Library</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Figma</span>
+                <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">npm & yarn</span>
             </div>
         </Container>
         </section>
