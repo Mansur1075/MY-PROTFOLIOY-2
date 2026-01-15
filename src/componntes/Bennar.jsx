@@ -34,10 +34,12 @@ const Bennar = () => {
                         <p className=' font-lato pt-4 text-[#667766c5] text-[18px]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
                             component-based architectures that are performant, maintainable, and built for production.</p>
                         <div className="flex gap-4 mt-8">
-                            <button className="shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-br font-bold font-lato from-indigo-500 via-purple-500 to-pink-500 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
+                            <button className="shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
                                 View Projects
                             </button>
-                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full hover:bg-indigo-600 hover:text-white transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full group-hover:bg-gradient-to-r 
+                group-hover:from-[#00D3F3] 
+                group-hover:to-[#3B82F6] hover:text-white transition">
                                 Download CV<FaCloudDownloadAlt  className=' inline-block ml-2 '/>
                             </button>
                         </div>

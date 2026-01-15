@@ -4,6 +4,9 @@ import Container from './componntes/Container'
 import { Navbar } from './componntes/Navbar'
 import Bennar from './componntes/Bennar'
 import About from './componntes/About'
+import Skills from './componntes/Skills'
+import Portfolio from './componntes/Portfolio'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +17,8 @@ function App() {
     <Navbar/>
     <Bennar/>
     <About/>
+    <Skills/>
+    <Portfolio/>
    </div>
     </>
   )
