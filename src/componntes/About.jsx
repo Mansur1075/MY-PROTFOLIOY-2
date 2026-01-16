@@ -6,7 +6,7 @@ import { AiTwotoneThunderbolt } from 'react-icons/ai'
 
 const About = () => {
     return (
-        <section className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
+        <section id='about' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
             <Container>
                 <div className="">
                     <div className=" text-center w-12/12 justify-center">

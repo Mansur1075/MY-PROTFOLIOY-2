@@ -4,7 +4,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 import { FaCode, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 const Footer = () => {
   return (
-     <footer className='py-10 shadow-lg  bg-linear-to-br from-slate-800 via-slate-900 to-slate-800 text-white overflow-hidden'>
+     <footer id='footer' className='py-10 shadow-lg  bg-linear-to-br from-slate-800 via-slate-900 to-slate-800 text-white overflow-hidden'>
       <Container>
         <div className="flex justify-between">
           <div className="w-4/12">

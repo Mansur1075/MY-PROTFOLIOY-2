@@ -10,7 +10,7 @@ import { GoDotFill } from 'react-icons/go'
 
 const Bennar = () => {
     return (
-        <section className='bg-linear-to-r  from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
+        <section id='bennar' className='bg-linear-to-r  from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
             <div className="absolute rotate-40 -inset-5 pointer-events-none">
                 <div className="absolute -top-75 animate-pulse left-207 w-32 h-32 bg-white/20 rounded-xl"></div>
                 <div className="absolute top-60 right-32 w-24 h-24 animate-pulse bg-white/15 rounded-lg"></div>

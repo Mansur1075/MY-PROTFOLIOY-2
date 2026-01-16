@@ -32,7 +32,7 @@ const Skills = () => {
         }
     }, []);
     return (
-        <section  ref={sectionRef} className="bg-linear-to-r transition-all duration-700 delay-200 from-slate-900 via-slate-800 to-slate-900 py-16 px-4">
+        <section id="skills"  ref={sectionRef} className="bg-linear-to-r transition-all duration-700 delay-200 from-slate-900 via-slate-800 to-slate-900 py-16 px-4">
         <Container>
             <div className=" text-center">
                 <h4 className="text-[30px] text-[#00D3F3] uppercase">Technical Skills</h4>

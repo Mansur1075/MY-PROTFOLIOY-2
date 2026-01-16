@@ -9,7 +9,7 @@ import { LuGithub } from 'react-icons/lu'
 
 const Portfolio = () => {
     return (
-        <section className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
+        <section id='portfolio' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
             <Container>
                 <div className="">
                     <div className=" text-center">

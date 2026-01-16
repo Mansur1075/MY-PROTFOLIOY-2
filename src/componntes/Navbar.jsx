@@ -30,13 +30,33 @@ export const Navbar = () => {
                             </div>
 
                             <ul className="hidden md:flex gap-8 lg:gap-10 text-sm font-bold text-[#ffffffa1]">
-                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Home</li>
-                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">About</li>
-                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Skills</li>
-                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Contact</li>
-                                <li className="hover:text-indigo-600 hover:scale-115 cursor-pointer transition">Projects</li>
+                                <li className="relative cursor-pointer transition hover:text-indigo-600 group">
+                                   <a href="/"> Home</a>
+                                    <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
+                                </li>
+                                
+                                <li className="relative cursor-pointer transition hover:text-indigo-600 group">
+                                   <a href="#about"> About</a>
+                                    <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
+                                </li>
+
+                                <li className="relative cursor-pointer transition hover:text-indigo-600 group">
+                                   <a href="#skills"> Skills</a>
+                                    <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
+                                </li>
+
+                                <li className="relative cursor-pointer transition hover:text-indigo-600 group">
+                                    Contact
+                                    <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
+                                </li>
+
+                                <li className="relative cursor-pointer transition hover:text-indigo-600 group">
+                                   <a href="#portfolio"> Projects</a>
+                                    <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-indigo-600 transition-all duration-300 group-hover:w-full"></span>
+                                </li>
                             </ul>
-                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] hidden md:block bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
+                            
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] hidden md:block bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-5 lg:px-6 py-2 rounded-full text-sm hover:bg-indigo-700 transition">
                                 Hire Me
                             </button>
                         </div>
