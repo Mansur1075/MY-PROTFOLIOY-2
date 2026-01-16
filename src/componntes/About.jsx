@@ -8,7 +8,7 @@ import useScrollReveal from "../hooks/useScrollReveal";
 const About = () => {
     const [ref, visible] = useScrollReveal();
     return (
-        <section id='about' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
+        <section id='about' className='bg-linear-to-r  from-slate-900  to-slate-900 py-15'>
            <div ref={ref} className={` ${visible
           ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
           : "opacity-0 translate-y-16 scale-95"}`}>

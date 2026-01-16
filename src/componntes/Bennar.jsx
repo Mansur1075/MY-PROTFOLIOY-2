@@ -12,7 +12,7 @@ import useScrollReveal from "../hooks/useScrollReveal";
 const Bennar = () => {
     const [ref, visible] = useScrollReveal();
     return (
-        <section id='bennar' className='bg-linear-to-r  from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
+        <section id='bennar' className='bg-linear-to-r from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
           <div ref={ref} className={` ${visible
           ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
           : "opacity-0 translate-y-16 scale-95"}`}>
@@ -38,7 +38,7 @@ const Bennar = () => {
                             component-based architectures that are performant, maintainable, and built for production.</p>
                         <div className="flex gap-4 mt-8">
                             <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
-                                View Projects
+                                <a href="#portfolio">View Projects</a>
                             </button>
                             <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-[#00d3f3bb] text-[#00D3F3] px-6 py-3 rounded-full group-hover:bg-linear-to-r  group-hover:from-[#00D3F3] group-hover:to-[#3B82F6] hover:text-white transition">
                                 Download CV<FaCloudDownloadAlt  className=' inline-block ml-2 '/>

@@ -11,7 +11,7 @@ import useScrollReveal from "../hooks/useScrollReveal";
 const Portfolio = () => {
     const [ref, visible] = useScrollReveal();
     return (
-        <section id='portfolio' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
+        <section id='portfolio' className='bg-linear-to-r  from-slate-900  to-slate-900 py-15'>
             <div ref={ref} className={` ${visible
           ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
           : "opacity-0 translate-y-16 scale-95"}`}>
@@ -43,9 +43,10 @@ const Portfolio = () => {
                             <div className="pt-6">
                                 <ul className="flex gap-4 flex-wrap cursor-pointer">
                                     <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">React</li>
-                                    <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3]hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">TypeScript</li>
+                                    <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3]hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">React Router</li>
                                     <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3]hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">Context API</li>
                                     <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3]hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">Tailwind CSS</li>
+                                    <li className="font-lato py-2 px-6 text-white text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3]hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">JavaScript</li>
                                 </ul>
                                 <ul className=' flex pt-5 gap-6 cursor-pointer'>
                                     <li className=' text-[#00D3F3] text-[20px] font-lato items-center gap-3'><FaArrowUpRightFromSquare className=' inline-block' />  Live Demo</li>
