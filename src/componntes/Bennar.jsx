@@ -14,7 +14,7 @@ const Bennar = () => {
             <div className="absolute rotate-40 -inset-5 pointer-events-none">
                 <div className="absolute -top-75 animate-pulse left-207 w-32 h-32 bg-white/20 rounded-xl"></div>
                 <div className="absolute top-60 right-32 w-24 h-24 animate-pulse bg-white/15 rounded-lg"></div>
-                <div className="absolute bottom-62 left-1/4 w-40 h-40 animate-ping [animation-duration:2.5s] bg-white/30 rounded-2xl"></div>
+                <div className="absolute bottom-62 left-1/5 w-50 h-50 animate-ping [animation-duration:2.5s] bg-white/30 rounded-2xl"></div>
                 <div className="absolute bottom-20 right-20 w-28 h-28 bg-white/20 animate-pulse rounded-xl"></div>
                 <div className="absolute bottom-20 right-20 w-28 h-28 bg-white/20 animate-pulse rounded-xl"></div>
             </div>
@@ -27,7 +27,7 @@ const Bennar = () => {
                            <span className="text-[#7DD3FC] font-medium">Front-End Developer</span>
                         </h1>
                         <p className="text-gray-600 mt-4 font-lato max-w-lg text-[35px]">
-                            I build <span className="bg-linear-to-r from-green-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-bold"> fast, clean, </span> and scalable web interfaces with React.< DiReact className='animate-spin [animation-duration:3s] inline-block text-[50px] text-[#61DAFB]' />
+                            I build <span className="bg-linear-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-transparent font-bold"> fast, clean, </span> and scalable web interfaces with React.< DiReact className='animate-spin [animation-duration:3s] inline-block text-[50px] text-[#61DAFB]' />
                         </p>
                         <p className=' font-lato pt-4 text-[#667766c5] text-[18px]'>Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
                             component-based architectures that are performant, maintainable, and built for production.</p>
@@ -35,7 +35,7 @@ const Bennar = () => {
                             <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] bg-linear-to-r from-[#00D3F3] to-[#3B82F6] text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">
                                 View Projects
                             </button>
-                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-indigo-600 text-indigo-600 px-6 py-3 rounded-full group-hover:bg-linear-to-r  group-hover:from-[#00D3F3] group-hover:to-[#3B82F6] hover:text-white transition">
+                            <button className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-[#00d3f3bb] text-[#00D3F3] px-6 py-3 rounded-full group-hover:bg-linear-to-r  group-hover:from-[#00D3F3] group-hover:to-[#3B82F6] hover:text-white transition">
                                 Download CV<FaCloudDownloadAlt  className=' inline-block ml-2 '/>
                             </button>
                         </div>
@@ -73,7 +73,7 @@ const Bennar = () => {
                                         <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-300 bg-black text-white text-sm px-3 py-1 rounded-md">
                                            Facebook
                                         </span>
-                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[blue] shadow-md cursor-pointer transition-all duration-300 group-hover:bg-[#0000ffb7] group-hover:text-white group-hover:-translate-y-2">
+                                        <div className="hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] w-14 h-14 flex items-center justify-center rounded-full bg-[#ffffff71] text-[#0000ff91] shadow-md cursor-pointer transition-all duration-300 group-hover:bg-[#0000ff66] group-hover:text-white group-hover:-translate-y-2">
                                             <FaFacebook size={24} />
                                         </div>
                                     </li>
