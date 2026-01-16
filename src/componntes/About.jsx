@@ -3,11 +3,16 @@ import Container from './Container'
 import { FaCode } from 'react-icons/fa'
 import { LuLayers } from 'react-icons/lu'
 import { AiTwotoneThunderbolt } from 'react-icons/ai'
+import useScrollReveal from "../hooks/useScrollReveal";
 
 const About = () => {
+    const [ref, visible] = useScrollReveal();
     return (
         <section id='about' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
-            <Container>
+           <div ref={ref} className={` ${visible
+          ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
+          : "opacity-0 translate-y-16 scale-95"}`}>
+             <Container>
                 <div className="">
                     <div className=" text-center w-12/12 justify-center">
                         <h4 className='text-[30px] font-lato text-[#039DB5]'>ABOUT ME</h4>
@@ -78,6 +83,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+           </div>
 
         </section>
     )

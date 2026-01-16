@@ -7,18 +7,23 @@ import mansur from "../assets/mansur.png"
 import { GiThumbDown } from 'react-icons/gi'
 import { DiReact } from 'react-icons/di'
 import { GoDotFill } from 'react-icons/go'
+import useScrollReveal from "../hooks/useScrollReveal";
 
 const Bennar = () => {
+    const [ref, visible] = useScrollReveal();
     return (
         <section id='bennar' className='bg-linear-to-r  from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden'>
-            <div className="absolute rotate-40 -inset-5 pointer-events-none">
+          <div ref={ref} className={` ${visible
+          ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
+          : "opacity-0 translate-y-16 scale-95"}`}>
+              <div className="absolute rotate-40 -inset-5 pointer-events-none">
                 <div className="absolute -top-75 animate-pulse left-207 w-32 h-32 bg-white/20 rounded-xl"></div>
                 <div className="absolute top-60 right-32 w-24 h-24 animate-pulse bg-white/15 rounded-lg"></div>
-                <div className="absolute bottom-62 left-1/5 w-50 h-50 animate-ping [animation-duration:2.5s] bg-white/30 rounded-2xl"></div>
+                <div className="absolute bottom-62 left-1/4 w-40 h-40 animate-ping [animation-duration:2.5s] bg-white/30 rounded-2xl"></div>
                 <div className="absolute bottom-20 right-20 w-28 h-28 bg-white/20 animate-pulse rounded-xl"></div>
                 <div className="absolute bottom-20 right-20 w-28 h-28 bg-white/20 animate-pulse rounded-xl"></div>
             </div>
-            <Container>
+             <Container>
                 <div className="max-w-7xl mx-auto px-6 pt-20 pb-20 grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <p className="text-indigo-600 font-bold font-lato text-[20px] mb-3">Hello, I’m</p>
@@ -95,6 +100,7 @@ const Bennar = () => {
                     </span>
                 </div>
             </Container>
+          </div>
         </section>
     )
 }

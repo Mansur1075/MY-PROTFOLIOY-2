@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Container from "./Container";
+import useScrollReveal from "../hooks/useScrollReveal";
 const skills = [
     { name: "HTML5 & CSS3", percent: 95, type: "Core" },
     { name: "React", percent: 95, type: "Frontend" },
@@ -13,6 +14,7 @@ const skills = [
 ];
 
 const Skills = () => {
+    const [ref, visiblee] = useScrollReveal();
     const sectionRef = useRef(null);
     const [visible, setVisible] = useState(false);
 
@@ -33,6 +35,9 @@ const Skills = () => {
     }, []);
     return (
         <section id="skills"  ref={sectionRef} className="bg-linear-to-r transition-all duration-700 delay-200 from-slate-900 via-slate-800 to-slate-900 py-16 px-4">
+         <div ref={ref} className={` ${visiblee
+          ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
+          : "opacity-0 translate-y-16 scale-95"}`}>
         <Container>
             <div className=" text-center">
                 <h4 className="text-[30px] text-[#00D3F3] uppercase">Technical Skills</h4>
@@ -76,6 +81,7 @@ const Skills = () => {
                 <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">npm & yarn</span>
             </div>   
         </Container>
+         </div>
         </section>
     )
 }

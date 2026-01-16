@@ -6,11 +6,16 @@ import projct3 from "../assets/projct3.png"
 import { BsGithub } from 'react-icons/bs'
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6'
 import { LuGithub } from 'react-icons/lu'
+import useScrollReveal from "../hooks/useScrollReveal";
 
 const Portfolio = () => {
+    const [ref, visible] = useScrollReveal();
     return (
         <section id='portfolio' className='bg-linear-to-r  from-slate-900  to-slate-900 py-10'>
-            <Container>
+            <div ref={ref} className={` ${visible
+          ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
+          : "opacity-0 translate-y-16 scale-95"}`}>
+                <Container>
                 <div className="">
                     <div className=" text-center">
                         <h3 className='text-[25px] uppercase text-[#00D3F3] font-lato '>Portfolio</h3>
@@ -121,6 +126,7 @@ const Portfolio = () => {
                     {/* part end */}
                 </div>
             </Container>
+            </div>
         </section>
     )
 }
