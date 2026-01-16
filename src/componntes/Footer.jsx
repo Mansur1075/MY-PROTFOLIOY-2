@@ -2,9 +2,14 @@ import React from 'react'
 import Container from './Container'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import { FaCode, FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import useScrollReveal from "../hooks/useScrollReveal";
 const Footer = () => {
+  const [ref, visible] = useScrollReveal();
   return (
      <footer id='footer' className='py-10 shadow-lg  bg-linear-to-br from-slate-800 via-slate-900 to-slate-800 text-white overflow-hidden'>
+      <div ref={ref} className={` ${visible
+          ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
+          : "opacity-0 translate-y-16 scale-95"}`}>
       <Container>
         <div className="flex justify-between">
           <div className="w-4/12">
@@ -44,10 +49,11 @@ const Footer = () => {
                <FaLinkedinIn />
             </button>
             </div>
-            <p className='pt-7'> © {new Date().getFullYear()} Mansur. All rights reserved.</p>
+            <p className='pt-7 text-[18px] font-lato text-[#ffffff95]'> © {new Date().getFullYear()} Mansur. All rights reserved.</p>
           </div>
         </div>
       </Container>
+      </div>
     </footer>
   )
 }
