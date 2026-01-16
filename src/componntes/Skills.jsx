@@ -75,6 +75,15 @@ const Skills = () => {
                 <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">Figma</span>
                 <span className="ml-3 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] duration-300 ease-in-out border border-[#00D3F3] py-3 px-5 rounded-2xl text-[15px] text-[#00D3F3]  font-lato">npm & yarn</span>
             </div>
+
+
+
+
+
+
+
+
+            
         </Container>
         </section>
     )
