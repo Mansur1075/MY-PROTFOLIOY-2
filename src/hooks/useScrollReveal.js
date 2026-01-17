@@ -29,4 +29,10 @@ const useScrollReveal = () => {
   return [ref, visible];
 };
 
+
+
+
+
+
+
 export default useScrollReveal;
