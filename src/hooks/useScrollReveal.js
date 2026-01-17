@@ -7,12 +7,9 @@ const useScrollReveal = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        // 👉 section visibly inside viewport
-        if (entry.intersectionRatio > 0.25) {
+        if (entry.intersectionRatio > 0.25) { 
           setVisible(true);
-        }
-
-        // 👉 section fully gone (not even a pixel)
+        }; 
         if (entry.intersectionRatio === 0) {
           setVisible(false);
         }

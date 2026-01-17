@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="w-2/12">
           <h3 className='text-[14px] text-[#00D3F3]'>QUICK LINKS</h3>
           <ul className='flex flex-col gap-3 pt-5 text-[14px]'>
-            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'>Hmoe</li>
-            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'>About</li>
-            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'>Skills</li>
-            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'>Projects</li>
+            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'><a href="/">Hmoe</a></li>
+            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'><a href="#about">About</a></li>
+            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'><a href="#skills">Skills</a></li>
+            <li className='text-[14px] hover:text-[#00D3F3] duration-300 ease-in-out cursor-pointer'><a href="#projects">Projects</a></li>
           </ul>
           </div>
           <div className="w-4/12">

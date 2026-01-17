@@ -7,6 +7,7 @@ import { BsGithub } from 'react-icons/bs'
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6'
 import { LuGithub } from 'react-icons/lu'
 import useScrollReveal from "../hooks/useScrollReveal";
+import { Link } from 'react-router'
 
 const Portfolio = () => {
     const [ref, visible] = useScrollReveal();
@@ -28,8 +29,12 @@ const Portfolio = () => {
                             <div className="relative p-5 border-3 cursor-pointer bg-[#ffffff7d] border-[#0C4D61] rounded-2xl">
                                 <img className=' group-hover:scale-104 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] shadow-md duration-300 ease-in-out rounded-2xl' src={projct1} alt="" />
                                 <div className=" w-full h-full bg-[#00d3f328] absolute top-0 left-0 rounded-2xl opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
+                                    <Link to="https://github.com/Mansur1075/OREBI-2.2" target='_blank'>
                                     <BsGithub className=' mt-35 ml-[50%] text-[35px]' />
+                                    </Link>
+                                    <Link to="https://orebi-2-2.vercel.app/" target='_blank'>
                                     <FaArrowUpRightFromSquare className=' -mt-9.5 ml-[42%] text-[40px] bg-[#00D3F3] py-3 text-white rounded-full' />
+                                   </Link>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +58,6 @@ const Portfolio = () => {
                                     <li className=' text-[#00D3F3] text-[20px] font-lato items-center gap-3'><LuGithub className=' inline-block' /> Source Code</li>
                                 </ul>
                             </div>
-
                         </div>
 
                     </div>
@@ -84,8 +88,12 @@ const Portfolio = () => {
                             <div className="relative p-5 border-3 cursor-pointer bg-[#ffffff7d] border-[#0C4D61] rounded-2xl">
                                 <img className=' group-hover:scale-104 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] shadow-md duration-300 ease-in-out rounded-2xl' src={projct2} alt="" />
                                 <div className=" w-full h-full bg-[#00d3f328] absolute top-0 left-0 rounded-2xl opacity-0 group-hover:opacity-100 duration-300 ease-in-out">
+                                    <Link to="https://github.com/Mansur1075/Bootstrap-1" target='_blank'>
                                     <BsGithub className=' mt-35 ml-[50%] text-[35px]' />
+                                    </Link>
+                                    <Link to="https://bootstrap-1-eight.vercel.app/" target='_blank'>
                                     <FaArrowUpRightFromSquare className=' -mt-9.5 ml-[42%] text-[40px] bg-[#00D3F3] py-3 text-white rounded-full' />
+                                   </Link>
                                 </div>
                             </div>
                         </div>
