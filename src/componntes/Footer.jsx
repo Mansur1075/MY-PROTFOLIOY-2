@@ -37,6 +37,7 @@ const Footer = () => {
           </ul>
           </div>
           <div className="w-4/12">
+          
           <h3 className='text-[14px] text-[#00D3F3]'>GET IN TOUCH</h3>
             <p className='text-[14px] text-gray-500 flex gap-2 pt-4 items-center'><FaGithub />hmmansur050@gmail.com</p>
             <div className="flex pt-6 gap-4">
