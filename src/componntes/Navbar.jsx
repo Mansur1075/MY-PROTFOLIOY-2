@@ -22,7 +22,6 @@ export const Navbar = () => {
                                     <h3 className="text-[20px] font-lato font-bold tracking-wide text-[#ffffff96] ">
                                         AL-MANSUR
                                     </h3>
-
                                     <span className="text-xs font-lato tracking-wide text-gray-500 uppercase">
                                         Front-End Developer
                                     </span>
@@ -61,6 +60,7 @@ export const Navbar = () => {
                         </div>
                     </div>
                 </div>
+                {/* new update */}
                 {/* ================= Hero Section ================= */}
             </Container>
         </nav>
