@@ -60,7 +60,7 @@ const Contract = () => {
             {/* Social Icons */}
             <div className="flex justify-center gap-5 mt-8">
               <a
-                href=""
+                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
                 className="p-3 bg-[#11202D] text-[#00D3F3] rounded-full hover:bg-[#00D3F3] hover:text-black duration-300"
               >
                 <FaEnvelope size={18} />
