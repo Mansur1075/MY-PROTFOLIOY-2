@@ -1,13 +1,24 @@
 import React from "react";
 import Container from "./Container";
 import { FaEnvelope, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import useScrollReveal from "../hooks/useScrollReveal"; // 👈 add this
 
 const Contract = () => {
 
+  const [ref, visible] = useScrollReveal(); // 👈 add this
+
   return (
-    <section id="contact" className="py-16 bg-linear-to-r from-slate-900 via-slate-800 to-slate-900">
+    <section
+      id="contact" className=" bg-linear-to-r from-slate-900 via-slate-800 to-slate-900 "
+     
+    >
       <Container>
-        <div>
+        <div
+         ref={ref}
+      className={`py-16 bg-linear-to-r from-slate-900 via-slate-800 to-slate-900 
+      transition-all duration-1100 
+      ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+        >
           {/* Heading */}
           <div className="text-center px-4">
             <p className="text-[14px] text-[#00D3F3]">Contact</p>
@@ -49,13 +60,13 @@ const Contract = () => {
             {/* Social Icons */}
             <div className="flex justify-center gap-5 mt-8">
               <a
-                href="mailto:mdmehedi992124@gmail.com"
+                href=""
                 className="p-3 bg-[#11202D] text-[#00D3F3] rounded-full hover:bg-[#00D3F3] hover:text-black duration-300"
               >
                 <FaEnvelope size={18} />
               </a>
               <a
-                href="https://github.com/Mehedi43g"
+                href="https://github.com/Mansur1075"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-[#11202D] text-[#00D3F3] rounded-full hover:bg-[#00D3F3] hover:text-black duration-300"
@@ -63,7 +74,7 @@ const Contract = () => {
                 <FaGithub size={18} />
               </a>
               <a
-                href="https://linkedin.com"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-[#11202D] text-[#00D3F3] rounded-full hover:bg-[#00D3F3] hover:text-black duration-300"
@@ -75,7 +86,6 @@ const Contract = () => {
         </div>
       </Container>
     </section>
-    // contract page a Firebase ta add kora baki ase
   );
 };
 

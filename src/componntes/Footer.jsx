@@ -63,9 +63,6 @@ const Footer = () => {
                 © {new Date().getFullYear()} Mansur. All rights reserved.
               </p>
             </div>
-
-
-
           </div>
           
         </Container>
