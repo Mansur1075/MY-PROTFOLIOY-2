@@ -125,9 +125,10 @@ const Portfolio = () => {
 
                                     <ul className="flex gap-3 lg:gap-4 flex-wrap cursor-pointer">
                                         <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">React</li>
-                                        <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">TypeScript</li>
-                                        <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">Recharts</li>
+                                        <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">React Router</li>
+                                        <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">Context API</li>
                                         <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">Tailwind CSS</li>
+                                        <li className="font-lato py-2 px-5 lg:px-6 text-white text-[13px] lg:text-[15px] border border-[#00D3F3]/40 rounded-full bg-[#0B0E14] transition-all duration-300 hover:border-[#00D3F3] hover:text-[#00D3F3] hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(0,211,243,0.25)]">JavaScript</li>
                                     </ul>
 
                                     <ul className='flex flex-wrap pt-5 gap-4 lg:gap-6 cursor-pointer'>
@@ -145,19 +146,15 @@ const Portfolio = () => {
                             <div className="w-full lg:w-6/12 group mt-9">
                                 <div className="relative p-5 border-3 cursor-pointer bg-[#ffffff7d] border-[#0C4D61] rounded-2xl">
 
-                                    <img
-                                        className='w-full group-hover:scale-104 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] shadow-md duration-300 ease-in-out rounded-2xl'
-                                        src={projct2}
-                                        alt=""
-                                    />
+                                    <img className='w-full group-hover:scale-104 hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] shadow-md duration-300 ease-in-out rounded-2xl' src={projct2} alt="" />
 
                                     <div className="w-full h-full bg-[#00d3f328] absolute top-0 left-0 rounded-2xl opacity-0 group-hover:opacity-100 duration-300 ease-in-out flex items-center justify-center gap-6">
 
-                                        <Link to="https://github.com/Mansur1075/Bootstrap-1" target='_blank'>
+                                        <Link to="https://ec-us-clint.vercel.app/" target='_blank'>
                                             <BsGithub className='text-[30px] lg:text-[35px]' />
                                         </Link>
 
-                                        <Link to="https://bootstrap-1-eight.vercel.app/" target='_blank'>
+                                        <Link to="https://ec-us-clint.vercel.app/" target='_blank'>
                                             <FaArrowUpRightFromSquare className='text-[30px] lg:text-[40px] bg-[#00D3F3] py-2 lg:py-3 px-2 lg:px-3 text-white rounded-full' />
                                         </Link>
 
