@@ -226,14 +226,6 @@ const Portfolio = () => {
                     </div>
                 </Container>
 
-
-
-
-
-
-
-
-                
             </div>
         </section>
     )

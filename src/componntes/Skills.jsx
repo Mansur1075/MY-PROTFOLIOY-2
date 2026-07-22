@@ -34,7 +34,7 @@ const Skills = () => {
         }
     }, []);
     return (
-        <section id="skills"  ref={sectionRef} className=" py-16 px-4 bg-linear-to-r from-slate-900 to-slate-900">
+        <section id="skills"  ref={sectionRef} className="bg-linear-to-r transition-all duration-700 delay-200 from-slate-900 via-slate-800 to-slate-900 py-16 px-4">
          <div ref={ref} className={` ${visiblee
           ? "opacity-100 translate-y-0 scale-100 duration-1000 ease-in-out"
           : "opacity-0 translate-y-16 scale-95"}`}>

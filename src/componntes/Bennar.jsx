@@ -32,7 +32,7 @@ const Bennar = () => {
                                 <span className="text-[#7DD3FC] font-medium">Front-End Developer</span>
                             </h1>
                             <p className="text-gray-400 mt-4 font-lato text-[20px] sm:text-[25px]">
-                                I build <span className="bg-linear-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-transparent font-bold">fast, clean,</span> and scalable web interfaces with React. 
+                                I build <span className="bg-linear-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-transparent font-bold">fast, clean,</span> and scalable web interfaces with React.
                                 <DiReact className='animate-spin [animation-duration:3s] inline-block text-[40px] sm:text-[50px] text-[#61DAFB]' />
                             </p>
                             <p className='font-lato pt-4 text-[#667766c5] text-[16px] sm:text-[18px] max-w-md mx-auto md:mx-0'>
@@ -47,8 +47,8 @@ const Bennar = () => {
                                 </button>
                                 <button className="group hover:shadow-[0_0_15px_rgba(255,255,255,0.6)] border font-bold font-lato border-[#00d3f3bb] text-[#00D3F3] px-6 py-3 rounded-full transition w-full sm:w-auto">
                                     <a
-                                        href="/AL-MANSUR_CV.pdf"
-                                        download="AL-MANSUR_CV.pdf"
+                                        href="/Mansur Hawlader - Resume.pdf"
+                                        download="Mansur Hawlader - Resume.pdf"
                                         className="flex items-center justify-center gap-2 w-full"
                                     >
                                         Download CV <FaCloudDownloadAlt className='inline-block' />
