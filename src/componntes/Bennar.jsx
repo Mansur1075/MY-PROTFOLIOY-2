@@ -5,6 +5,7 @@ import { MdEmail } from 'react-icons/md'
 import mansur from "../assets/mansur.png"
 
 import { DiReact } from 'react-icons/di'
+import { TbBrandHtml5, TbBrandCss3, TbBrandJavascript, TbBrandGit } from 'react-icons/tb'
 import { GoDotFill } from 'react-icons/go'
 import useScrollReveal from "../hooks/useScrollReveal";
 
@@ -33,7 +34,14 @@ const Bennar = () => {
                             </h1>
                             <p className="text-gray-400 mt-4 font-lato text-[20px] sm:text-[25px]">
                                 I build <span className="bg-linear-to-r from-green-300 via-blue-400 to-purple-500 bg-clip-text text-transparent font-bold">fast, clean,</span> and scalable web interfaces with React.
-                                <DiReact className='animate-spin [animation-duration:3s] inline-block text-[40px] sm:text-[50px] text-[#61DAFB]' />
+
+                                <span className="inline-flex items-center gap-2.5 align-middle ml-3 flex-wrap justify-center sm:justify-start mt-2 sm:mt-0">
+                                    {/* React */}
+                                    <div className="p-2 rounded-xl bg-slate-800/60 backdrop-blur-md border mt-2 border-cyan-500/30 shadow-[0_0_15px_rgba(97,218,251,0.2)] hover:shadow-[0_0_25px_rgba(97,218,251,0.6)] transition-all duration-300 hover:-translate-y-2 group">
+                                        <DiReact className='animate-[spin_6s_linear_infinite] text-[28px] sm:text-[36px] text-[#61DAFB] group-hover:scale-110 transition-transform' />
+                                    </div>
+
+                                </span>
                             </p>
                             <p className='font-lato pt-4 text-[#667766c5] text-[16px] sm:text-[18px] max-w-md mx-auto md:mx-0'>
                                 Frontend Developer specializing in React, Tailwind CSS, and modern JavaScript. I create
@@ -111,6 +119,7 @@ const Bennar = () => {
                         </span>
                     </div>
                 </Container>
+
             </div>
         </section>
     )
